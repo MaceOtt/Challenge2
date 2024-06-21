@@ -115,7 +115,7 @@
     line-height: 1.2;
     display: inline;
   }
-  
+
   .page-wrapper {
     max-width: 88%;
     margin-left: auto;
@@ -173,15 +173,7 @@
     font-size: 0.9rem;
   }
 
-  img {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: 200px;
-   max-height: 200px;
-   position: relative;
 
-  }
   
   /* feature first portfolio item */
   .flex-item:first-child {
@@ -202,20 +194,13 @@
     font-size: 1.6rem;
   }
 
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-  
-  }
   
   .contact address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
+    height: 10
   }
   
   .contact address a {
@@ -239,6 +224,19 @@
   }
   
   /* portfolio project images */
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 20%;
+    max-height: 50;
+  
+  }
+
+
+
   /* TODO: Add portfolio project images here*/
   
   /* media queries */
@@ -253,10 +251,12 @@
     
   
   /* TODO: add media query for a max-width of 768px */
+  
   @media screen and (max-width: 768px) {
     main,
-    nav{
-      flex-direction: column;
+    nav
+    {
+     flex-direction: column;
       
     }
   } 
